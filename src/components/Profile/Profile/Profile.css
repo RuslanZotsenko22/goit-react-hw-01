@@ -1,0 +1,73 @@
+/* src/Profile.css */
+.profile {
+  width: 300px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+}
+
+.profile .description {
+  padding: 30px 30px 15px 30px;
+}
+
+.profile .description img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.profile .description p {
+  margin: 0;
+  color: #333;
+}
+
+.profile .description p.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile .description p.tag,
+.profile .description p.location {
+  color: #777;
+  font-size: 14px;
+}
+
+.profile .stats {
+  display: flex;
+
+  background-color: #f3f6f9;
+  border-top: 2px solid #ccc;
+}
+.stats {
+  margin: 0;
+  padding: 0;
+}
+
+.profile .stats li {
+  list-style: none;
+  flex: 1;
+  padding: 20px 0;
+  border-right: 2px solid #ccc;
+}
+
+.profile .stats li:last-child {
+  border-right: none;
+}
+
+.profile .stats span {
+  display: block;
+  color: black;
+}
+
+.profile .stats span.value {
+  color: #333;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 18px;
+}
