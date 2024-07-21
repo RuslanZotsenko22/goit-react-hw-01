@@ -1,0 +1,26 @@
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.friend-list {
+  list-style: none;
+  padding: 0;
+}
+
+.friend-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.friend-item {
+  list-style: none;
+  /* margin: 10px; */
+  border: 2px solid black; /* Додаємо обведення для кожного елемента li */
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}

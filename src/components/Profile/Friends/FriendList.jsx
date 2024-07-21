@@ -1,11 +1,7 @@
-
-
-
-// src/FriendList.js
 // import React from 'react';
 import PropTypes from 'prop-types';
-import FriendListItem from './FrendList.json';
-import './Frendlist.css';
+import FriendListItem from './FriendListItem';
+import './FriendList.css'
 
 const FriendList = ({ friends }) => {
   return (
@@ -29,7 +25,7 @@ FriendList.propTypes = {
       name: PropTypes.string.isRequired,
       isOnline: PropTypes.bool.isRequired,
       id: PropTypes.number.isRequired,
-    })
+    }).isRequired
   ).isRequired,
 };
 

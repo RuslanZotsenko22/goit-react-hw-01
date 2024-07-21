@@ -2,7 +2,8 @@
 
 // import React from 'react';
 import PropTypes from 'prop-types';
-import './Profile.css';
+import '../Profile/Profile.css';
+
 
 
 const Profile = ({ name, tag, location, image, stats }) => {
