@@ -19,7 +19,7 @@
 .friend-item {
   list-style: none;
   /* margin: 10px; */
-  border: 2px solid black; /* Додаємо обведення для кожного елемента li */
+  border: 2px solid black;
   border-radius: 8px;
   padding: 10px;
   text-align: center;
